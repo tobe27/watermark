@@ -17,17 +17,19 @@
         <version>2.1.1.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    
+
     <properties>
         <java.version>1.8</java.version>
     </properties>
 
     <dependencies>
+        <!--用maven将本地的pdf的jar包生成依赖，并导入-->
         <dependency>
             <groupId>com.example</groupId>
             <artifactId>pdf</artifactId>
             <version>1.0.0</version>
         </dependency>
+        
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
